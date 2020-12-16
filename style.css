@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#global {
+    width: 100vw;
+    height: 100vh;
+    background: beige;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#pointPlayer1, #pointPlayer2{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    width: 14%;
+    height: min-content;
+    background: burlywood;
+    text-align: center;
+}
+
+#zoneVersus {
+    width: 60%;
+    background: blanchedalmond;
+    height: 50%;
+    border-radius: 0px 0px 40px 40px;
+    border: 0px solid #000000;
+    box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#choixPlayer1, #choixPlayer2{
+    width: 30%;
+    height: min-content;
+}
+
+#choix {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#choix > div{
+    width: 30%;
+    font-size: 2rem;
+    color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#choix > div > div {
+    width: 20%;
+    height: 20%;
+    background: black;
+    border: 0px solid #000000;
+    border-radius: 200px 200px 200px 200px;
+}
+
+img{
+    width: 100%;
+    padding: 10%;
+}
+
+span {
+    font-size: 2rem;
+}
+
+#partie {
+    border: 1px solid coral;
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+}
