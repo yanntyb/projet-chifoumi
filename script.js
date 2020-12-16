@@ -25,10 +25,10 @@ function clickChoix(liste,tabImage){
             let win = checkWin([i.id,random.toString()]);
             if(win === 0){
                 let point = document.getElementById("point1");
-                point.innerHTML = parseInt(point.innerHTML) + 1;
+                point.innerHTML = 1 + parseInt(point.innerHTML);
             }else if (win === 1){
                 let point = document.getElementById("point2");
-                point.innerHTML = parseInt(point.innerHTML) + 1;
+                point.innerHTML = 1 + parseInt(point.innerHTML);
             }
         });
         i.addEventListener("mouseup", function (){
